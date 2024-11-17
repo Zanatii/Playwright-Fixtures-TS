@@ -1,6 +1,6 @@
 import { expect, type Locator, type Page } from '@playwright/test';
 const softExpect = expect.configure({ soft: true });
-let jsonPath = require('jsonpath');
+let jsonPath : any ;
 
 export class RecommendationPage {
 
