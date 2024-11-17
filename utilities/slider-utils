@@ -1,0 +1,25 @@
+import { test, expect, type Page, Locator } from '@playwright/test';
+ 
+export async function clickByMouse(page : Page, locator : Locator) {
+    const sliderBoundingBox = await locator.boundingBox();
+    if (!sliderBoundingBox) {
+      return;
+    }
+ 
+    const {x: sliderX, y: sliderY, width: sliderWidth, height: sliderHeight} = sliderBoundingBox;
+    await page.mouse.click(sliderX, sliderY);
+}
+ 
+export async function moveSlider(page : Page, locator : Locator, pointsToMove : number) {
+     const priceSliderHandlerBoundryBox = await locator.boundingBox();
+     if (!priceSliderHandlerBoundryBox) {
+      return;
+    }
+ 
+    const {x: priceSliderX, y: priceSliderY, width: priceSliderWidth, height: priceSliderHeight} = priceSliderHandlerBoundryBox;
+    await page.mouse.move(priceSliderX + priceSliderWidth/2, priceSliderY + priceSliderHeight/2);
+    await page.mouse.down();
+    await page.mouse.move((priceSliderX + priceSliderWidth/2) + pointsToMove, priceSliderY + priceSliderHeight/2);
+    await page.mouse.up();
+}
+ 

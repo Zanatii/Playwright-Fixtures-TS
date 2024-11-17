@@ -1,0 +1,69 @@
+{
+    "tab": {
+        "recommendedTitle": "Recommended Plan",
+        "alternativeTitle": "Opción similar",
+        "planTitle": "Plan",
+        "img5gURL": "//assets/ws10/icons/entel/5G.svg",
+        "dataIconURL": "//assets/ws10/icons/entel/data-32.svg",
+        "callsIconURL": "//assets/ws10/icons/entel/Llamando.svg",
+        "SMSIconURL": "//assets/ws10/icons/entel/Mensajes.svg",
+        "roamingIcon5URL": "//assets/ws10/icons/entel/Roaming.svg"
+    },
+
+    "planName": {
+        "plan29": "Entel Chip 29.90 C",
+        "plan34": "Entel Power 34.90 C",
+        "plan44": "Entel Power 44.90",
+        "plan54": "Entel Power 54.90",
+        "plan69": "Entel Power 69.90",
+        "plan79": "Entel Power 79.90 SD",
+        "plan99": "Entel Power 99.90 SD",
+        "plan129": "Entel Power 129.90 SD"
+    },
+
+    "featureTitle": {
+        "data": "DATA_NATIONAL",
+        "calls": "VOICE_ALLNET",
+        "SMS": "SMS_ALLNET",
+        "roaming": "ROAMING"
+    },
+
+    "featureOrder": {
+        "first": 0,
+        "second": 1,
+        "third": 2,
+        "fourth": 3
+    },
+
+    "orderSummary": {
+        "title": "Resumen",
+        "productsTitle": "Artículos",
+        "plansTitle": "Plan móvil",
+        "pricesTitle": "Mensual",
+        "additionalName": "1 x Plan adicional",
+        "additionalName2": "2 x Plan adicional",
+        "additionalName3": "3 x Plan adicional",
+        "commercePrice": "$11.893/mes",
+        "recurringPrice": "Por 6 meses luego $16.990",
+        "commerceAdditionalPrice": "$7.693",
+        "commerceAdditionalPrice2": "$15.386",
+        "commerceAdditionalPrice3": "$23.079",
+        "listAdditionalgPrice": "Por 6 meses luego $10.990/mes",
+        "listAdditionalgPrice2": "Por 6 meses luego $21.980/mes",
+        "listAdditionalgPrice3": "Por 6 meses luego $32.970/mes",
+        "totalTitle1Plan": "Total",
+        "totalTitle2Plan": "Total 2 planes",
+        "totalTitle3Plan": "Total 3 planes",
+        "totalTitle4Plan": "Total 4 planes",
+        "totalRecurringPrice": "Por 6 meses luego $16.990/mes",
+        "totalCommercePrice2Plan": "$19.586/mes",
+        "totalRecurringPrice2Plan": "Por 6 meses luego $27.980/mes",
+        "totalCommercePrice3Plan": "$27.279/mes",
+        "totalRecurringPrice3Plan": "Por 6 meses luego $38.970/mes",
+        "totalCommercePrice4Plan": "$34.972/mes",
+        "totalRecurringPrice4Plan": "Por 6 meses luego $49.960/mes",
+        "pricePerPlan1": "$9.793c/plan",
+        "pricePerPlan2": "$9.093c/plan",
+        "pricePerPlan3": "$8.743c/plan"
+    }
+}

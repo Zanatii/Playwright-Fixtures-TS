@@ -1,0 +1,216 @@
+{
+    "id": "PO_POS_OO_24390",
+    "href": "/productOffering/PO_POS_OO_24390",
+    "description": "Entel Power 34.90 C",
+    "isBundle": false,
+    "isCustomerVisible": true,
+    "name": "Entel Power 34.90 C",
+    "productCharacteristic": [
+        {
+            "id": "VOICE_ALLNET",
+            "name": "VOICE_ALLNET",
+            "description": "Minutos ilimitados a Perú. Chile. Canadá y EE.UU.",
+            "title": "Llamadas ilimitadas",
+            "valueType": "MINS",
+            "characteristicRelationship": [
+                {
+                    "id": "planAllowance",
+                    "relationshipType": "group"
+                },
+                {
+                    "id": "topFeature",
+                    "relationshipType": "group"
+                },
+                {
+                    "id": "voice",
+                    "relationshipType": "group"
+                }
+            ],
+            "value": [
+                {
+                    "unitOfMeasure": "MINS",
+                    "valueType": "number",
+                    "value": 999999
+                }
+            ]
+        },
+        {
+            "id": "NETWORK",
+            "name": "NETWORK",
+            "description": "Network",
+            "title": "5G Network",
+            "valueType": "",
+            "characteristicRelationship": [
+                {
+                    "id": "planAllowance",
+                    "relationshipType": "group"
+                },
+                {
+                    "id": "network",
+                    "relationshipType": "group"
+                }
+            ],
+            "value": [
+                {
+                    "unitOfMeasure": "",
+                    "valueType": "string",
+                    "value": "5G"
+                }
+            ]
+        },
+        {
+            "id": "SMS_ALLNET",
+            "name": "SMS_ALLNET",
+            "description": "500 SMS.",
+            "title": "Hasta 500 Sms",
+            "valueType": "SMS",
+            "characteristicRelationship": [
+                {
+                    "id": "planAllowance",
+                    "relationshipType": "group"
+                },
+                {
+                    "id": "topFeature",
+                    "relationshipType": "group"
+                },
+                {
+                    "id": "sms",
+                    "relationshipType": "group"
+                }
+            ],
+            "value": [
+                {
+                    "unitOfMeasure": "SMS",
+                    "valueType": "number",
+                    "value": 500
+                }
+            ]
+        },
+        {
+            "id": "RRSS",
+            "name": "RRSS",
+            "description": "Apps ilimitadas. Uso libre de Facebook. Messenger e Instagram fotos.",
+            "title": "Apps ilimitadas",
+            "valueType": "",
+            "characteristicRelationship": [
+                {
+                    "id": "planAllowance",
+                    "relationshipType": "group"
+                },
+                {
+                    "id": "topFeature",
+                    "relationshipType": "group"
+                },
+                {
+                    "id": "rrss",
+                    "relationshipType": "group"
+                }
+            ],
+            "value": [
+                {
+                    "unitOfMeasure": "",
+                    "valueType": "string",
+                    "value": "FBP,ITP,WZ,WA"
+                }
+            ]
+        },
+        {
+            "id": "DATA_NATIONAL",
+            "name": "DATA_NATIONAL",
+            "description": "15 GB en alta velocidad.",
+            "title": "15 Gigas",
+            "valueType": "GB",
+            "characteristicRelationship": [
+                {
+                    "id": "planAllowance",
+                    "relationshipType": "group"
+                },
+                {
+                    "id": "topFeature",
+                    "relationshipType": "group"
+                },
+                {
+                    "id": "data",
+                    "relationshipType": "group"
+                },
+                {
+                    "id": "matchingSpec",
+                    "relationshipType": "group"
+                }
+            ],
+            "value": [
+                {
+                    "unitOfMeasure": "GB",
+                    "valueType": "number",
+                    "value": 15
+                }
+            ]
+        },
+        {
+            "id": "ROAMING",
+            "name": "ROAMING",
+            "description": "",
+            "title": "",
+            "valueType": "GB",
+            "characteristicRelationship": [
+                {
+                    "id": "planAllowance",
+                    "relationshipType": "group"
+                },
+                {
+                    "id": "topFeature",
+                    "relationshipType": "group"
+                },
+                {
+                    "id": "roaming",
+                    "relationshipType": "group"
+                },
+                {
+                    "id": "matchingSpec",
+                    "relationshipType": "group"
+                }
+            ],
+            "value": [
+                {
+                    "unitOfMeasure": "GB",
+                    "valueType": "number",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "productScore",
+            "name": "productScore",
+            "characteristicRelationship": [
+                {
+                    "id": "matchingScore",
+                    "relationshipType": "group"
+                }
+            ]
+        }
+    ],
+    "productPrice": [
+        {
+            "description": "recurring",
+            "priceType": "recurring",
+            "price": {
+                "taxIncludedAmount": {
+                    "unit": "sol",
+                    "value": 34.9
+                }
+            },
+            "productPriceAlteration": []
+        }
+    ],
+    "productRelationship": [],
+    "productTerm": [
+        {
+            "description": "recurring",
+            "duration": {
+                "amount": 3,
+                "units": "Month"
+            }
+        }
+    ],
+    "status": "active"
+}

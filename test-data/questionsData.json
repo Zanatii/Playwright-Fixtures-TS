@@ -1,0 +1,52 @@
+{
+    "Q1" : {
+      "questionNumber" : 1,
+      "title" : "¿Ya eres entel postpago?",
+      "A1" : "Soy Entel postpago",
+      "A2" : "Quiero ser Entel",
+      "numberOfAnswers" : 2
+    },
+
+    "Q2" : {
+        "questionNumber" : 2,
+        "title" : "¿Cuánto tiempo le dedicas a estas actividades diariamente?",
+        "subtitle" : "Excluyendo los momentos que te conectas al WiFi",
+        "sliderQuestion1" : "Videollamadas",
+        "sliderQuestion2" : "Reuniones de teletrabajo",
+        "sliderQuestion3" : "Ver videos, series o películas",
+        "sliderQuestion4" : "Jugar en línea",
+        "sliderQuestion5" : "Compartir internet a otros dispositivos",
+        "sliderQuestion6" : "Seguir mapas y GPS",
+        "A1" : "- 1 hr.",
+        "A2" : "1 hr.",
+        "A3" : "+ 2 hr.",
+        "numberOfSliderAnswers" : 18,
+        "numberOfSliderQuestions" : 6
+      },
+
+      "Q3" : {
+        "questionNumber" : 3,
+        "title" : "¿Te gustaría que incluyamos roaming a tu plan?",
+        "subtitle" : "Nuestros planes de roaming consideran datos para navegar",
+        "A1" : "No quiero incluir roaming",
+        "A2" : "Sí, incluir roaming para usarlo ocasionalmente",
+        "A3" : "Sí, incluir roaming para usarlo frecuentemente con Waze y WhatsApp ilimitado",
+        "numberOfAnswers" : 3
+      },
+
+      "Q4": {
+        "questionNumber" : 4,
+        "title" : "¿Cuál es tu presupuesto estimado?",
+        "subtitle" : "Así te ofrecemos un plan que se ajuste a ti ",
+        "hint" : "Mueve el selector para cambiar de monto"
+      },
+
+      "Q5": {
+        "questionNumber" : 5,
+        "title":  "¿Quieres una línea nueva o cambiarte a Entel?",
+        "subtitle": "",
+        "A1" : "Línea nueva",
+        "A2" : "Me cambio a Entel",
+        "numberOfAnswers" : 2
+      }
+}
