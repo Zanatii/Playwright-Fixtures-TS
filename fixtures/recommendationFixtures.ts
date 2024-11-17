@@ -1,8 +1,8 @@
 import { test as base } from './questionnaireFixtures';
 import { LandingPage } from "../pages/LandingPage";
-import { Questionnaire } from "../pages/Questionnaire/QuestionPage";
-import { AlternativeTab } from "../pages/Recommendaiton/Tabs/AlternativePlan";
-import { RecommendedTab } from "../pages/Recommendaiton/Tabs/RecommendedPlan";
+import { Questionnaire } from "../pages/questionnaire/QuestionPage";
+import { AlternativeTab } from "../pages/recommendaiton/tabs/AlternativePlan";
+import { RecommendedTab } from "../pages/recommendaiton/tabs/RecommendedPlan";
 
 
 type TestFixtures = {
