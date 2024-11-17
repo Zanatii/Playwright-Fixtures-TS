@@ -1,4 +1,4 @@
-import {test} from '../../fixtures/recommendationFixtures'
+import {test} from '../../fixtures/dataFixtures'
 
 
 
