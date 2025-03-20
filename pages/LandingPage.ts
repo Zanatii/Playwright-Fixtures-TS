@@ -11,8 +11,7 @@ export class LandingPage{
 
     async goTo()
     {
-        //await this.page.goto("https://gr-app1-test.app-preprod.digitalretail.vodafone.com/");
-        await this.page.goto("https://opw-app4-test.app-stage.digitalretail.vodafone.com/");
+        await this.page.goto("ADD The TEST ENV. LINK");
     }
 
     async clickOnEntryPoint()
